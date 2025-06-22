@@ -1,0 +1,5 @@
+# Combined command to run everything at once:
+chmod +x mvnw && export SPRING_PROFILES_ACTIVE=dev && ./mvnw spring-boot:run
+
+# Optional: If you want to run with cloudflared tunnel
+# cloudflared tunnel --url http://localhost:8888 

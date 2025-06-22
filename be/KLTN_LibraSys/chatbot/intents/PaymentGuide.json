@@ -1,0 +1,39 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440014",
+  "name": "PaymentGuide",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PaymentGuide",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Hướng dẫn thanh toán tiền phạt tại thư viện:\n\n1. Thanh toán qua VNPay:\n   - Nhấn vào nút \u0027Thanh toán qua VNPay\u0027 trên khoản phạt cần thanh toán\n   - Chọn phương thức thanh toán phù hợp\n   - Hoàn tất thanh toán theo hướng dẫn\n\n2. Thanh toán tại thư viện:\n   - Đến quầy thủ thư\n   - Cung cấp thông tin tài khoản\n   - Thanh toán bằng tiền mặt hoặc quẹt thẻ\n\nLưu ý:\n- Vui lòng thanh toán đúng số tiền phạt\n- Giữ lại biên lai thanh toán\n- Nếu có thắc mắc, vui lòng liên hệ thủ thư để được hỗ trợ"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "PaymentGuide"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

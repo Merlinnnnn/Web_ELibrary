@@ -1,0 +1,59 @@
+{
+  "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+  "name": "ReserveBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ReserveBook",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3b6682ab-4276-47d6-9d97-55800e2ba37f",
+          "name": "book-title",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$book-title",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "vi",
+              "value": "Bạn muốn đặt trước sách nào?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Đang xử lý yêu cầu đặt trước sách $book-title..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "ReserveBook"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "name": "LibraryRules",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LibraryRules",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "550e8400-e29b-41d4-a716-446655440001",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "rule_type",
+          "value": "$rule_type",
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "lang": "vi",
+          "speech": [
+            "Quy định mượn sách của thư viện:\n\n1. Số lượng sách mượn tối đa: 5 cuốn/người\n2. Thời hạn mượn: 14 ngày\n3. Gia hạn: Không được gia hạn\n4. Phạt quá hạn: 5.000đ/ngày/cuốn\n5. Bảo quản sách: Không được làm rách, viết vẽ, làm bẩn sách\n\nHướng dẫn trả sách:\n\n1. Trả sách tại quầy thủ thư\n2. Thủ thư sẽ kiểm tra tình trạng sách\n3. Nếu sách bị hư hỏng, bạn sẽ phải bồi thường\n4. Sau khi trả sách, bạn có thể mượn sách mới\n\nBạn cần thêm thông tin gì không?"
+          ]
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+} 

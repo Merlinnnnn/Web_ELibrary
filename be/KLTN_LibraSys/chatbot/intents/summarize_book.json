@@ -1,0 +1,202 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "name": "SummarizeBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "summarize.book",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bookId",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "bookId",
+          "value": "$bookId",
+          "prompts": [
+            "Bạn muốn tóm tắt sách nào?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "vi",
+          "speech": [
+            "Tôi sẽ tóm tắt sách cho bạn"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "summarize",
+      "parameters": {
+        "bookId": "$bookId"
+      }
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "trainingPhrases": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "data": [
+        {
+          "text": "tóm tắt sách",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "data": [
+        {
+          "text": "tóm tắt nội dung sách",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "data": [
+        {
+          "text": "sách này nói về gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "data": [
+        {
+          "text": "nội dung sách này là gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "data": [
+        {
+          "text": "tóm tắt sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookId",
+          "alias": "bookId",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    }
+  ],
+  "inputContextNames": [],
+  "outputContexts": [],
+  "parentId": null,
+  "followUpIntents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "data": [
+        {
+          "text": "tóm tắt sách",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "data": [
+        {
+          "text": "tóm tắt nội dung sách",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "data": [
+        {
+          "text": "sách này nói về gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "data": [
+        {
+          "text": "nội dung sách này là gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "data": [
+        {
+          "text": "tóm tắt sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookId",
+          "alias": "bookId",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    }
+  ]
+} 

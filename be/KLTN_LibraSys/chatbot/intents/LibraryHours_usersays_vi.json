@@ -1,0 +1,67 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440041",
+    "data": [
+      {
+        "text": "Thư viện mở cửa lúc mấy giờ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440042",
+    "data": [
+      {
+        "text": "Giờ mở cửa thư viện",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440043",
+    "data": [
+      {
+        "text": "Thư viện đóng cửa lúc mấy giờ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440044",
+    "data": [
+      {
+        "text": "Giờ đóng cửa thư viện",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440045",
+    "data": [
+      {
+        "text": "Thư viện hoạt động từ mấy giờ đến mấy giờ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

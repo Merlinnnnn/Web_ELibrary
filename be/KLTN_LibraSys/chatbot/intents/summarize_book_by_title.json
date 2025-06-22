@@ -1,0 +1,182 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440100",
+  "name": "SummarizeBookByTitle",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "summarize.book.by.title",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bookTitle",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "bookTitle",
+          "value": "$bookTitle",
+          "prompts": [
+            "Bạn muốn tóm tắt sách nào?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "vi",
+          "speech": [
+            "Tôi tìm thấy một số sách phù hợp với từ khóa \"$bookTitle\". Vui lòng chọn sách bạn muốn tóm tắt:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "summarize_by_title",
+      "parameters": {
+        "bookTitle": "$bookTitle"
+      }
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "trainingPhrases": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440101",
+      "data": [
+        {
+          "text": "tóm tắt sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookTitle",
+          "alias": "bookTitle",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440102",
+      "data": [
+        {
+          "text": "tìm và tóm tắt sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookTitle",
+          "alias": "bookTitle",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440103",
+      "data": [
+        {
+          "text": "sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookTitle",
+          "alias": "bookTitle",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " nói về gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    }
+  ],
+  "inputContextNames": [],
+  "outputContexts": [],
+  "parentId": null,
+  "followUpIntents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440101",
+      "data": [
+        {
+          "text": "tóm tắt sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookTitle",
+          "alias": "bookTitle",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440102",
+      "data": [
+        {
+          "text": "tìm và tóm tắt sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookTitle",
+          "alias": "bookTitle",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440103",
+      "data": [
+        {
+          "text": "sách ",
+          "userDefined": false
+        },
+        {
+          "text": "bookTitle",
+          "alias": "bookTitle",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " nói về gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "lang": "vi",
+      "updated": 0
+    }
+  ]
+} 

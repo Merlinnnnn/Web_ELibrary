@@ -1,0 +1,120 @@
+[
+  {
+    "id": "05e2b88d-b14c-41a7-a502-e7552d093095",
+    "data": [
+      {
+        "text": "tài khoản tôi còn đang bị phạt bao nhiêu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "fc92a84d-6d1b-4d88-92db-69649918f3cc",
+    "data": [
+      {
+        "text": "số tiền phạt tài khoản ",
+        "userDefined": false
+      },
+      {
+        "text": "anc",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      },
+      {
+        "text": " đang còn nợ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "11f41974-3f1f-455a-9623-2bb266f6fc33",
+    "data": [
+      {
+        "text": "hiện tài khoản ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      },
+      {
+        "text": " đang bị phạt bao nhiêu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "9acfed8d-d2e9-474e-8cdb-d2e30cb6545d",
+    "data": [
+      {
+        "text": "Email ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      },
+      {
+        "text": " có đang nợ phạt không",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "3cee7992-88da-4725-bf96-fbe14f590b5e",
+    "data": [
+      {
+        "text": "Tài khoảng ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      },
+      {
+        "text": " đang nợ bao nhiêu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "fc39a37f-c6a9-4f5c-b13a-0a7114e2a55b",
+    "data": [
+      {
+        "text": "Tài khoản tôi đang nợ bao nhiêu tiền",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

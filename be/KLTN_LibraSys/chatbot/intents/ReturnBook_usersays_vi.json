@@ -1,0 +1,67 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440031",
+    "data": [
+      {
+        "text": "Tôi muốn trả sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440032",
+    "data": [
+      {
+        "text": "Trả sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440033",
+    "data": [
+      {
+        "text": "Tôi muốn hoàn trả sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440034",
+    "data": [
+      {
+        "text": "Hoàn trả sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440035",
+    "data": [
+      {
+        "text": "Tôi muốn trả lại sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

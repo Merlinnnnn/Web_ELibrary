@@ -1,0 +1,29 @@
+curl -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
+chmod +x cloudflared
+sudo mv cloudflared /usr/local/bin/
+
+
+cloudflared tunnel --url http://localhost:8009
+
+curl -L https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared && chmod +x cloudflared && sudo mv cloudflared /usr/local/bin/ && cloudflared tunnel --url http://localhost:8009
+
+
+NGORK
+//
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-stable-linux-amd64.zip && unzip ngrok-stable-linux-amd64.zip && sudo mv ngrok /usr/local/bin && ngrok config add-authtoken 2vU6XS2ZvmPWUURrFMjDEQj5ApC_58tZmGSTiX21tbccpiL1i
+
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-stable-linux-amd64.zip
+unzip ngrok-stable-linux-amd64.zip
+sudo mv ngrok /usr/local/bin
+ngrok config add-authtoken 2vU6XS2ZvmPWUURrFMjDEQj5ApC_58tZmGSTiX21tbccpiL1i
+
+
+CURSOR
+
+sudo apt update&&sudo apt install libfuse2
+
+# Run Spring Boot application in dev mode
+./mvnw spring-boot:run -Dspring-boot.run.profiles=dev
+
+
+

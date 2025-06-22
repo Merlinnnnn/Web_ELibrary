@@ -1,0 +1,122 @@
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet: DEBUG
+my-config:
+  base-url: http://localhost:8009
+  client-url:  http://localhost:3000
+app:
+  chatbot:
+    url: https://
+  loan:
+    duration:
+      days: 30
+  digital:
+    duration:
+      days: 30
+  drm:
+    enabled: true
+    master-key: pBl8HgVc0W3jRHTfvkiqGwTDZ4xE5myFdJSPUQYa7XL
+OpenAI:
+  apiKey: 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
+server:
+  port: 8009
+jwt:
+  signer-key: 0fCUCfplKd4o5fNUOBAkk1waUF7wbSHrPM5+MABZtLb13nzOw1yLekTVI2ChTbRs
+  valid-duration: 86400 #in seconds 1days
+  refreshable-duration: 604800 #in seconds 7days
+spring:
+  application:
+    name: libraSys
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: syslibrary2025@gmail.com
+    password: ighsmggnhxyfgrpi
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true
+
+  datasource:
+    url: jdbc:mysql://librasys-quythanhhuynh2003-eba0.j.aivencloud.com:22029/libraSys?ssl-mode=REQUIRED
+    username: avnadmin
+    password: AVNS_vzHdXH_p86a1jQ2KrPC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: false
+        use_sql_comments: false
+  security: #my first app
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 166307076926-e7la655c2uk61c1knp9gkag2m4vs8m17.apps.googleusercontent.com
+            client-secret: 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
+            redirect-uri: ${my-config.base-url}/login/oauth2/code/google
+            scope:
+              - email
+              - profile
+        provider:
+          google:
+            authorization-uri: https://accounts.google.com/o/oauth2/auth
+            token-uri: https://oauth2.googleapis.com/token
+            user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
+            user-name-attribute: sub
+cloudinary:
+  cloud-name: dz9yzexh0
+  api-key: 482653722794945
+  api-secret: 23VTZBEf6rL-BBXVF3wOPqFWbas
+springdoc:
+  api-docs:
+    path: /api-docs
+resilience4j:
+  ratelimiter:
+    configs:
+      default:
+        limit-for-period: 3
+        limit-refresh-period: 1m
+        timeout-duration: 0
+    instances:
+      wsSocket:
+        base-config: default
+      abc:
+        limit-for-period: 10
+        limit-refresh-period: 2m
+        timeout-duration: 0
+# Cấu hình DRM Key Management
+drm:
+  keystore:
+    path: config/drm_keystore.p12
+    password: librasys
+  key:
+    alias: drm-server-key
+    rotation:
+      days: 90
+vnp:
+  vnp_PayUrl: "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html"  # URL thanh toán VNPay (môi trường sandbox)
+  vnp_TmnCode: "HU9K4MZN"  # Mã Website (vnp_TmnCode)
+  secretKey: "32Z6L94NMFM3E2TFWTFKLO0FQG0WTX8D"  # Chuỗi bí mật (vnp_HashSecret)
+  vnp_ReturnUrl: "${my-config.base-url}/api/v1/vnpay/return-payment"  # URL trả về sau khi thanh toán
+  vnp_ReturnUr_Fe: "${my-config.client-url}/payment-result"  # URL thông báo kết quả thanh toán
+dialogfow:
+  project_id: new-test-jkbb

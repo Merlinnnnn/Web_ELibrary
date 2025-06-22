@@ -1,0 +1,55 @@
+{
+  "id": "bdc60858-145a-410a-ac70-8527343396a5",
+  "name": "SearchBookByTitle",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b2d71657-766a-4a49-a66f-9fc77ba63149",
+          "name": "bookTitle",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$bookTitle",
+          "defaultValue": "Bạn đang tìm sách gì",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "vi",
+              "value": "Bạn đang muốn tìm sách gì, vui lòng cho tôi tên sách"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Hãy cho tôi tiêu đề sách bạn cần tìm"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

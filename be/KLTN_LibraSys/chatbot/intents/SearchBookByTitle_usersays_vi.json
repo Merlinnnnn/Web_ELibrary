@@ -1,0 +1,137 @@
+[
+  {
+    "id": "29a8364d-9d37-4121-bd46-e4d5b72ab8c1",
+    "data": [
+      {
+        "text": "Tìm kiếm sách ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "77b7fd5e-2a79-4be1-9618-c23ec47b0fb0",
+    "data": [
+      {
+        "text": "Kiểm tra có sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Đắc nhân tâm",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      },
+      {
+        "text": " không?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "41be51b2-7b72-4522-a91b-957525e65635",
+    "data": [
+      {
+        "text": "Thư viện có sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Chạng vạng",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      },
+      {
+        "text": " không?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "d10e9c78-1167-418a-8339-b0a3b62aeaca",
+    "data": [
+      {
+        "text": "Tìm sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Nhà giả kim",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "8fe53bd4-c96b-4fc6-99bc-dc757f22207a",
+    "data": [
+      {
+        "text": "Kiểm tra sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Harry Potter",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "f4de6256-b6b3-4566-b846-4ff57d1611c8",
+    "data": [
+      {
+        "text": "Tìm kiếm thông tin sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Doraemon",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "2cd3dacb-0767-4f7a-bcb8-d27a099a11e7",
+    "data": [
+      {
+        "text": "Tìm kiếm sách abc",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 4,
+    "lang": "vi",
+    "updated": 0
+  }
+]

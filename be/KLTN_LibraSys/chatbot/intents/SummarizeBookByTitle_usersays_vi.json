@@ -1,0 +1,63 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440101",
+    "data": [
+      {
+        "text": "tóm tắt sách ",
+        "userDefined": false
+      },
+      {
+        "text": "PHP",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440102",
+    "data": [
+      {
+        "text": "tìm và tóm tắt sách ",
+        "userDefined": false
+      },
+      {
+        "text": "bookTitle",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440103",
+    "data": [
+      {
+        "text": "sách ",
+        "userDefined": false
+      },
+      {
+        "text": "bookTitle",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      },
+      {
+        "text": " nói về gì",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

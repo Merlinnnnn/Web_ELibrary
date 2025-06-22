@@ -1,0 +1,136 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440101",
+    "data": [
+      {
+        "text": "Xem thông tin chi tiết sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Đắc Nhân Tâm",
+        "meta": "@sys.any",
+        "alias": "book-title",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440102",
+    "data": [
+      {
+        "text": "Mô tả chi tiết về sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Nhà Giả Kim",
+        "meta": "@sys.any",
+        "alias": "book-title",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440103",
+    "data": [
+      {
+        "text": "Cho tôi biết thông tin chi tiết về sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+        "meta": "@sys.any",
+        "alias": "book-title",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440104",
+    "data": [
+      {
+        "text": "Xem mô tả sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Harry Potter",
+        "meta": "@sys.any",
+        "alias": "book-title",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440105",
+    "data": [
+      {
+        "text": "Thông tin đầy đủ về sách ",
+        "userDefined": false
+      },
+      {
+        "text": "Cà Phê Cùng Tony",
+        "meta": "@sys.any",
+        "alias": "book-title",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440106",
+    "data": [
+      {
+        "text": "Xem thông tin chi tiết sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440107",
+    "data": [
+      {
+        "text": "Xem mô tả chi tiết sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440108",
+    "data": [
+      {
+        "text": "Thông tin đầy đủ về sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

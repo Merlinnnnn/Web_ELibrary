@@ -1,0 +1,80 @@
+[
+  {
+    "id": "16ad5d88-d99c-4279-93cd-56f860ab0eb8",
+    "data": [
+      {
+        "text": "Thông tin về sách đang được ưa chuộng nhất",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "a9127716-2bbc-4adb-84fc-ef50eb6d3c37",
+    "data": [
+      {
+        "text": "Sách đang được nhiều người lựa chọn nhất là sách gì",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "d1ab70b7-c9b0-4fa6-bf33-d8ebba92cd80",
+    "data": [
+      {
+        "text": "Hãy cho tôi biết cuốn sách đàng được ưa chuộng nhất hiện nay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "c264ddc1-cdfd-4b30-b5f8-c8716790bb35",
+    "data": [
+      {
+        "text": "Cuốn sách nhiều lượt đọc nhất hiện nay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "61e32510-0ed9-4dc4-a5a6-28a4678d2cb0",
+    "data": [
+      {
+        "text": "Hiện nay cuốn sách nào đang được nhiều người đọc nhất",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "0ce154a8-ac56-4662-ab99-8fdd0afc658c",
+    "data": [
+      {
+        "text": "Hiện nay cuốn sách đang thịnh hành nhất là cuốn nào",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

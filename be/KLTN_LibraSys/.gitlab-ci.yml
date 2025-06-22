@@ -1,0 +1,74 @@
+image: maven:3.8.4-openjdk-17
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository -Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=WARN -Dorg.slf4j.simpleLogger.showDateTime=true -Djava.awt.headless=true"
+  MAVEN_CLI_OPTS: "--batch-mode --errors --fail-at-end --show-version -DinstallAtEnd=true --no-transfer-progress"
+
+cache:
+  paths:
+    - .m2/repository
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    # Build project with thin JAR
+    - mvn $MAVEN_CLI_OPTS clean package -DskipTests -Dspring-boot.repackage.skip=true
+    
+    # Create output directory
+    - mkdir -p dist
+
+    # Copy configuration file(s) if exists
+    - cp target/classes/application*.yaml dist/ || true
+
+    # Copy static assets if directory exists
+    - if [ -d target/classes/static ]; then cp -r target/classes/static dist/; fi
+    - if [ -d target/classes/templates ]; then cp -r target/classes/templates dist/; fi
+
+    # Copy JAR to dist/
+    - cp target/*.jar dist/
+  
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 week
+
+  rules:
+    - if: $CI_COMMIT_BRANCH
+      when: always
+
+deploy:
+  stage: deploy
+  script:
+    - echo "🚀 Deploying application..."
+    
+    # Ensure SSH is available
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    
+    # Prepare SSH configuration
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+
+    # Copy application files to server
+    - scp -r dist/* $SERVER_USER@$SERVER_HOST:/path/to/deploy/
+
+    # Run application on server
+    - |
+      ssh $SERVER_USER@$SERVER_HOST "
+        cd /path/to/deploy &&
+        JAR_NAME=\$(ls *.jar | head -n1) &&
+        pkill -f \"java.*\$JAR_NAME\" || true &&
+        nohup java -jar \$JAR_NAME > app.log 2>&1 &
+      "
+
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: manual
+    - when: never

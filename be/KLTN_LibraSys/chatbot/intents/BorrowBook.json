@@ -1,0 +1,61 @@
+{
+  "id": "c40c28cd-ee5f-4a49-8e7a-b9545439e742",
+  "name": "BorrowBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BorrowBook",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bf64966a-0b57-4e70-87a1-54f008687c21",
+          "name": "bookTitle",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$bookTitle",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "vi",
+              "value": "Bạn muốn mượn sách nào?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Vui lòng cho biết tên sách bạn muốn mượn",
+            "Bạn muốn mượn sách nào?",
+            "Tên sách bạn muốn mượn là gì?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BorrowBook"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

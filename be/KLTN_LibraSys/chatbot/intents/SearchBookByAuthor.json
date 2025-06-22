@@ -1,0 +1,59 @@
+{
+  "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+  "name": "SearchBookByAuthor",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SearchBookByAuthor",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "60522fff-1c28-4455-a835-3f211858cb68",
+          "name": "author",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$author",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "vi",
+              "value": "Bạn muốn tìm sách của tác giả nào?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Đang tìm kiếm sách của tác giả $author..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SearchBookByAuthor"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "data": [
+      {
+        "text": "Quy định mượn sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "data": [
+      {
+        "text": "Hướng dẫn trả sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "data": [
+      {
+        "text": "Quy trình mượn trả sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "data": [
+      {
+        "text": "Thời hạn mượn sách là bao lâu?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "data": [
+      {
+        "text": "Mượn được bao nhiêu sách?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "data": [
+      {
+        "text": "Phạt quá hạn bao nhiêu?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "data": [
+      {
+        "text": "Có được gia hạn sách không?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "data": [
+      {
+        "text": "Trả sách ở đâu?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "data": [
+      {
+        "text": "Làm sao để trả sách?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "data": [
+      {
+        "text": "Quy định về việc bảo quản sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "data": [
+      {
+        "text": "Nếu làm hỏng sách thì sao?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440013",
+    "data": [
+      {
+        "text": "Quy định chung của thư viện",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+] 

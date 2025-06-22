@@ -1,0 +1,67 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440021",
+    "data": [
+      {
+        "text": "Tôi muốn gia hạn sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440022",
+    "data": [
+      {
+        "text": "Gia hạn sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440023",
+    "data": [
+      {
+        "text": "Tôi muốn gia hạn thời gian mượn sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440024",
+    "data": [
+      {
+        "text": "Gia hạn thời gian mượn sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440025",
+    "data": [
+      {
+        "text": "Tôi muốn gia hạn thời hạn mượn sách",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

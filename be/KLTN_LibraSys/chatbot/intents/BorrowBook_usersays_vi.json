@@ -1,0 +1,143 @@
+[
+  {
+    "id": "0f6e1bba-0313-44bc-ae0a-c0e810b802c0",
+    "data": [
+      {
+        "text": "làm sao để mượn được cuốn ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "cc5b7a22-2b14-4a17-9bcc-1b5273af9efd",
+    "data": [
+      {
+        "text": "hãy hướng dẫn tôi mượn sách ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "70e57828-45db-4f8a-ad2f-00c0bd098a82",
+    "data": [
+      {
+        "text": "tôi cần mượn sách ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "52430dfd-f3c3-4449-874a-6f39c3cbd94e",
+    "data": [
+      {
+        "text": "tôi có mượn được sách ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      },
+      {
+        "text": " không",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "29bce523-1873-4ee8-bbf7-9073ea16e442",
+    "data": [
+      {
+        "text": "muốn mượn sách ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      },
+      {
+        "text": " thì làm thế nào",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "af2c83a8-1619-4d2a-bf98-f95acfd749a4",
+    "data": [
+      {
+        "text": "làm thế nào để mượn sách ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "6ec78a77-0158-4ded-8f1e-c8fd96135d09",
+    "data": [
+      {
+        "text": "Tôi muốn mượn sách ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "meta": "@sys.any",
+        "alias": "bookTitle",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

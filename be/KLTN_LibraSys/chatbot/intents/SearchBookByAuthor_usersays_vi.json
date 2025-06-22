@@ -1,0 +1,101 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440051",
+    "data": [
+      {
+        "text": "Tìm sách của tác giả ",
+        "userDefined": false
+      },
+      {
+        "text": "Nguyễn Nhật Ánh",
+        "meta": "@sys.any",
+        "alias": "author",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440052",
+    "data": [
+      {
+        "text": "Sách của ",
+        "userDefined": false
+      },
+      {
+        "text": "Paulo Coelho",
+        "meta": "@sys.any",
+        "alias": "author",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440053",
+    "data": [
+      {
+        "text": "Tác giả ",
+        "userDefined": false
+      },
+      {
+        "text": "Dale Carnegie",
+        "meta": "@sys.any",
+        "alias": "author",
+        "userDefined": true
+      },
+      {
+        "text": " có những sách nào?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440054",
+    "data": [
+      {
+        "text": "Cho tôi xem sách của ",
+        "userDefined": false
+      },
+      {
+        "text": "J.K. Rowling",
+        "meta": "@sys.any",
+        "alias": "author",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440055",
+    "data": [
+      {
+        "text": "Tìm tất cả sách của ",
+        "userDefined": false
+      },
+      {
+        "text": "Nguyễn Ngọc Tư",
+        "meta": "@sys.any",
+        "alias": "author",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

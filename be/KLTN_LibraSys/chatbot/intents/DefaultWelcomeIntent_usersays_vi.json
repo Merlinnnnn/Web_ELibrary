@@ -1,0 +1,171 @@
+[
+  {
+    "id": "d9f51650-71c4-4563-af03-1ac583ac774c",
+    "data": [
+      {
+        "text": "Hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "129ad82b-ee14-4a55-85b6-1d0db5ec516c",
+    "data": [
+      {
+        "text": "Hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "d64d68d0-0134-4ce3-adec-c7041b33256f",
+    "data": [
+      {
+        "text": "xin chào",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "dbdf69fb-c908-4f7e-a9c3-332a3a2aaa49",
+    "data": [
+      {
+        "text": "chào bạn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "85f7ed37-ccc1-4589-9350-f008292f8177",
+    "data": [
+      {
+        "text": "chào cậu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "54281e4a-2d55-4810-933a-84272713cea4",
+    "data": [
+      {
+        "text": "chào đằng ấy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "be3ff817-e71e-4544-bb39-ba0680ae3fc1",
+    "data": [
+      {
+        "text": "xin chào, lại là tôi đây",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "381f2aca-6203-4776-8cda-9403402a6159",
+    "data": [
+      {
+        "text": "lâu lắm không gặp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "00770829-cc31-4297-a15f-9817fc2e79bc",
+    "data": [
+      {
+        "text": "chào nhé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "cce05dc2-236d-49c7-bca8-2131f7242572",
+    "data": [
+      {
+        "text": "chào mừng bạn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "1272455a-b826-46eb-aac7-51900427678b",
+    "data": [
+      {
+        "text": "chào",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "fb02c8ea-e708-4a92-b7ec-75c4644bd9f0",
+    "data": [
+      {
+        "text": "xin chào đằng ấy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  },
+  {
+    "id": "71b7cd26-27bf-4757-baec-fbb3a4fd66a4",
+    "data": [
+      {
+        "text": "xin chào nhé",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "vi",
+    "updated": 0
+  }
+]

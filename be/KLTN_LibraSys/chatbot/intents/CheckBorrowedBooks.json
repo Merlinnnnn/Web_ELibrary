@@ -1,0 +1,41 @@
+{
+  "id": "77d4cd7e-3a78-4171-af0c-86d396a95ee7",
+  "name": "CheckBorrowedBooks",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CheckBorrowedBooks",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Đang kiểm tra sách bạn đang mượn...",
+            "Đang xem danh sách sách đang mượn của bạn...",
+            "Đang tìm kiếm sách bạn đang mượn..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "CheckBorrowedBooks"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

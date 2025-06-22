@@ -1,0 +1,46 @@
+{
+  "id": "900ef691-ef3f-4ce2-ac19-45a09e39ba33",
+  "name": "DefaultFallbackIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Tôi chưa hiểu. Bạn có thể nói lại không?",
+            "Tôi chưa nghe rõ những gì bạn nói. Bạn có thể nhắc lại không?",
+            "Xin lỗi, bạn có thể nói lại không?",
+            "Xin lỗi, bạn có thể nhắc lại được không?",
+            "Bạn có thể nói lại thông tin đó không?",
+            "Xin lỗi, tôi vẫn chưa hiểu.",
+            "Xin lỗi, bạn nói gì cơ?",
+            "Vui lòng nhắc lại.",
+            "Bạn nói gì cơ?",
+            "Bạn có thể nhắc lại không?",
+            "Tôi chưa hiểu.",
+            "Tôi chưa nghe rõ."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "d4e5f6a7-b8c9-4d0e-9f1a-2b3c4d5e6f7a",
+  "name": "BookDetails",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookDetails",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b1e8767e-7861-47a2-9fa6-9a66b6d74afd",
+          "name": "book-title",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$book-title",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "vi",
+              "value": "Bạn muốn xem thông tin chi tiết của sách nào?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Đang tìm thông tin chi tiết của sách $book-title..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BookDetails"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

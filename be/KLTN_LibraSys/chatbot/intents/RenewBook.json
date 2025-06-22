@@ -1,0 +1,61 @@
+{
+  "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+  "name": "RenewBook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RenewBook",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "913b94bc-ca72-40a5-a413-e2c680eb114f",
+          "name": "bookTitle",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$bookTitle",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "vi",
+              "value": "Bạn muốn gia hạn sách nào?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "vi",
+          "speech": [
+            "Vui lòng cho biết tên sách bạn muốn gia hạn",
+            "Bạn muốn gia hạn sách nào?",
+            "Tên sách bạn muốn gia hạn là gì?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "RenewBook"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
